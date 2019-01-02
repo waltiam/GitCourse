@@ -1,12 +1,8 @@
-# Git Concepts
-
-**Git** is a distributed source control system.  That means that each user has a complete version of the source on their local machine.  Additionally, there is usually a gold or master version on a remote server, it is from this repository that the installable version of the software is made.  Be aware, the genealogy of **Git** has introduced identical concepts with different names and different concepts with identical names, context is very important in understanding the differences or similarities.
-
-## Repository
+# Repositories
 
 A **Git** _Repository_ or _repo_ is a self contained complete source control system.
 
-### Create an Empty Repository
+## Create an Empty Repository
 
 - The folder name selected cannot exist, it is not possible to create a **Git** _repo_ from **Visual Studio** from an existing folder.
 - To create a **Git** _repo_ from an existing folder with files either **Tortoise** or the command line need to be used, see below.
@@ -37,7 +33,7 @@ A **Git** _Repository_ or _repo_ is a self contained complete source control sys
 
 ![Local Repository](/img/LocalRepository.PNG)
 
-### Create a Repository from the Command Line
+## Create a Repository from the Command Line
 
 Open a command prompt (**Bash**, **Command** or **PowerShell**) navigate to the folder that you wish to create a _repo_ in:
 
@@ -51,7 +47,7 @@ git init
 - This will not change the state of an existing _repo_, (it will update templates)
 - [Full discussion](https://git-scm.com/docs/git-init)
 
-### Create a Repository with Tortoise
+## Create a Repository with Tortoise
 
 Right click in the folder that you wish to create the _repo_ in and select _Git Create repository here ..._.
 
@@ -60,4 +56,3 @@ Right click in the folder that you wish to create the _repo_ in and select _Git 
 Select _OK_ leaving the check-box unchecked.
 
 ![Ok To Create](/img/okToCreate.PNG)
-
